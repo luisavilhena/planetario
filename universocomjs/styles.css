@@ -1,0 +1,131 @@
+body {
+  margin-top: 0;
+}
+
+#universo {
+  margin: 0;
+  height: 5000px;
+  background-image: url('universo.png');
+  background-size: auto;
+  background-repeat: repeat;
+
+  overflow: scroll;
+
+}
+
+#planeta {
+  position: fixed;
+  top: 30%;
+  right: 30%;
+
+  width: 326px;
+  height: 235px;
+
+  background-image: url('marte1.svg');
+  background-size: auto;
+
+  z-index: 1;
+
+/*  transform-origin: 54px 54px;*/
+}
+
+h1 {
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 100px;
+  color: white;
+}
+
+.orbita {
+  position: absolute;
+
+  border-radius: 50%;
+  border: 1px dashed white;
+
+  z-index: 1;
+}
+
+.primeira-lua > .orbita {
+  top: -100px;
+  right: 105px;
+
+  height: 300px;
+  width: 300px; 
+}
+
+.lua1 {
+  position: absolute;
+  top: 100px;
+  right: 104px;
+
+  height: 27px;
+  width: 23px;
+
+  background-image: url('luadeimos.png');
+  background-size: contain;
+
+  z-index: 2;
+}
+
+.lua2 {
+  position: absolute;
+  top: 115px;
+
+  height: 18px;
+  width: 18px;
+
+  background-image: url('phobos.png');
+  background-size: contain;
+
+  z-index: 2;
+}
+
+.segunda-lua > .orbita {
+  top: -39px;
+  right: 166px;
+
+  height: 180px;
+  width: 180px; 
+}
+
+.planeta {
+  /*animation: rotation 50s infinite linear;*/
+} 
+
+.meteoro-1{
+  margin: 100px;
+  width: 30px;
+  height: 25px;
+  background-image: url('meteoro.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+/*  animation: flash 15s infinite alternate linear;*/
+
+}
+
+/*@keyframes flash {
+  from {
+    transform: rotate(0deg) scale(2);
+    display: block;
+  }
+
+  to{
+    transform: rotate(360deg) scale(.20);
+    display: none;
+  }
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    
+  }
+}
+
+
+*/
