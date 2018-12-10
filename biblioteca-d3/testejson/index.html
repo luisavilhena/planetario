@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="mylist.json"></script>
+  <title>json</title>
+</head>
+  <body>
+    <div>luisa</div>
+    <script type="text/javascript">
+    function ajax_get_json(){
+      var results = document.getElementById("results");
+        var hr = new XMLHttpRequest();
+        hr.open("GET", "mylist.json", true);
+        hr.setRequestHeader("Content-type", "application/json", true);
+        hr.onreadystatechange = function() {
+          if(hr.readyState == 4 && hr.status == 200) {
+            var data = JSON.parse(hr.responseText);
+          results.innerHTML = "";
+          for(var obj in data){
+            results.innerHTML += data[obj].user+" is "+data[obj].age+" and lives in "+data[obj].country+"<hr/>";
+            }
+          }
+        }
+        hr.send(null);
+        results.innerHTML = "requesting...";
+    }
+    </script>
+    <div id="results"></div>
+    <script type="text/javascript">ajax_get_json();</script>
+  </body>
+</head> -->
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="mylist.json"></script>
+  </head>
+  <body>
+    <div class="container">
+      <table id="my_table" class="table">
+      </table>
+    </div>
+  </body>
+  <script>
+    var local_data = data;
+    var row_data = '';
+    for (var i = 0; i < local_data.length; i++) {
+      var row_data = row_data + '<br>' +
+        ' <td>' + "o " + local_data[i].user + '</br>' +
+        ' <td>' + " tem " + local_data[i].age + " anos"+ '<br>' +
+        ' <td>' + " e nasceu em " + local_data[i].country + '<br>' +
+        '</tr>';
+    }
+    var table_body_element = document.createElement('body');
+    table_body_element.innerHTML = row_data;
+    document.getElementById('my_table').appendChild(table_body_element);
+    // var local_dataDois = dataDois;
+    // var row_dataDois = '';
+    // for (var i = 0; i < local_dataDois.length; i++) {
+    //   var row_dataDois = row_dataDois + local_dataDois[i].
+    // }
+  </script>
+</html>

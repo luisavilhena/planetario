@@ -1,0 +1,82 @@
+var data = [ {
+  "id": 0,
+  "user":"John", 
+  "age":22, 
+  "country":"United States" 
+}, {
+  
+  "id": 1,
+  "user":"Will", 
+  "age":27, 
+  "country":"United Kingdom" 
+}, {
+  "id": 2,
+  "user":"Abiel",
+  "age":19, 
+  "country":"Mexico" 
+}, {
+  "id": 3,
+  "user":"Rick", 
+  "age":34, 
+  "country":"Panama" 
+}, {
+  "id": 4,
+  "user":"Susan",
+  "age":23, 
+  "country":"Germany" 
+}, {
+  "id": 5,
+  "user":"Amy", 
+  "age":43, 
+  "country":"France" 
+}, {
+  "id": 6,
+  "user":"Pete", 
+  "age":18,
+  "country":"Italy"
+}, {
+  "id": 7,
+  "user":"Chris",
+  "age":25, 
+  "country":"United States"
+}, {
+  "id": 8,
+  "user":"Louis",
+  "age":31,
+  "country":"Spain" 
+}, {
+  "id": 9,
+  "user":"Emily",
+  "age":38, 
+  "country":"Uraguay" 
+}, {
+  "id": 10,
+  "user":"Shawn",
+  "age":52,
+  "country":"Chile" 
+}, {
+  "id": 11,
+  "user":"Greg", 
+  "age":24,
+  "country":"Romania" 
+}]
+
+// var data = [{
+//   "id": 1,
+//   "first_name": "Beverlie",
+//   "last_name": "Yeoman",
+//   "email": "byeoman0@google.it",
+//   "gender": "Female"
+// }, {
+//   "id": 2,
+//   "first_name": "Mabel",
+//   "last_name": "Saurin",
+//   "email": "msaurin1@facebook.com",
+//   "gender": "Female"
+// }, {
+//   "id": 3,
+//   "first_name": "Magnum",
+//   "last_name": "Moniker",
+//   "email": "mmoniker2@geocities.com",
+//   "gender": "Male"
+// }]
